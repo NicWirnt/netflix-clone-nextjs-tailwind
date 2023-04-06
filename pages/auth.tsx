@@ -80,6 +80,10 @@ const Auth = () => {
                 type="password"
                 value={password}
               />
+              <div className="hover:text-white transition duration-300 ">
+                <p>email: test@gmail.com</p>
+                <p>password: 123321</p>
+              </div>
             </div>
             <button
               className="
